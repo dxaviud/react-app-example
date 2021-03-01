@@ -3,12 +3,13 @@ console.log(ReactDOM);
 
 const reactContentRoot = document.getElementById("root");
 
-const message = "Hello, World!";
+const App = () => {
+    const message = "Hello, World!";
 
-const messageElement = (
-    <p>
-        {message}
-    </p>
-);
+    return (
+        <p>{message}</p>
+    );
+}
 
-ReactDOM.render(messageElement, reactContentRoot);
+// can use App() aswell instead of <App />
+ReactDOM.render(<App />, reactContentRoot);
