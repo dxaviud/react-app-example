@@ -1,3 +1,3 @@
 # react-app
 
-I'm learning React!
+I'm learning React by buliding something!
