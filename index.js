@@ -3,6 +3,10 @@ console.log(ReactDOM);
 
 const reactContentRoot = document.getElementById("root");
 
-const messageElement = React.createElement("p", null, "Hello, World!");
+const messageElement = (
+    <p>
+        Hello, World!
+    </p>
+);
 
 ReactDOM.render(messageElement, reactContentRoot);
