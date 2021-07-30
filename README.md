@@ -1,3 +1,3 @@
 # react-app-minimal
 
-A "Hello World" React app from scratch.
+A barebones react app template.
